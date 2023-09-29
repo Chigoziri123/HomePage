@@ -47,7 +47,7 @@ const Testimonials = () => {
         <SwiperSlide>
           <div className='bg-teal-300 p-8 rounded-xl'>
             <div className='flex items-center justify-center'>
-            <img src={image_2} className='h-96 w-56'alt='a man in a black top'/>
+            <img src={image_2} className='h-96 w-56 rounded-lg'alt='a man in a black top'/>
             </div>
             <h4 className='uppercase text-xl font-thin text-center text-primary'>Lazarus Nathan</h4>
             <p className='text-sm leading-7 my-3 text-black font-light text-center lg:mx-44'>"I can't thank eMedic enough for their prompt and reliable services. 
@@ -59,7 +59,7 @@ const Testimonials = () => {
         <SwiperSlide>
           <div className='bg-teal-300 p-8 rounded-xl'>
            <div className='flex items-center justify-center'>
-            <img src={image_3} className='h-96 w-56' alt='company staff'/> 
+            <img src={image_3} className='h-96 w-56 rounded-lg' alt='company staff'/> 
            </div>
             <h4 className='uppercase text-xl font-thin text-center text-primary'>Albatross Logistics PLC</h4>
             <p className='text-sm leading-7 my-3 text-black font-light text-center lg:mx-44'>"At Albatross Company, we care about our employees' well-being. 
@@ -71,7 +71,7 @@ const Testimonials = () => {
         <SwiperSlide>
             <div className='bg-teal-300 p-8 rounded-xl'>
               <div className='flex items-center justify-center'>
-                <img src={image_5} className='h-96 w-56' alt='an elderly couple'/>
+                <img src={image_5} className='h-96 w-56 rounded-lg' alt='an elderly couple'/>
               </div>
               <h4 className='uppercase text-xl font-thin text-center text-primary'> Alice and Thomas Chukwuma</h4>
               <p className='text-sm leading-7 my-3 text-black font-light text-center lg:mx-44'>"As retirees, staying healthy is our top priority.
@@ -84,7 +84,7 @@ const Testimonials = () => {
         <SwiperSlide>
           <div className='bg-teal-300 p-8 rounded-xl'>
             <div className='flex items-center justify-center'>
-              <img src={image_4} className='h-96 w-56' alt='a young man'/>
+              <img src={image_4} className='h-96 w-56 rounded-lg' alt='a young man'/>
             </div>
             <h4 className='uppercase text-xl font-thin text-center text-primary'>David Johnson</h4>
             <p className='text-sm leading-7 my-3 text-black font-light text-center lg:mx-44'>"I had some health concerns and didn't know where to turn. eMedic was a lifesaver! 
@@ -96,7 +96,7 @@ const Testimonials = () => {
         <SwiperSlide>
             <div className='bg-teal-300 p-8 rounded-xl'>
               <div className='flex items-center justify-center'>
-                <img src={image_1} className='h-96 w-56' alt='a happy woman'/>  
+                <img src={image_1} className='h-96 w-56 rounded-lg' alt='a happy woman'/>  
               </div>
               <h4 className='uppercase text-xl font-thin text-center text-primary'>Aisha Habib</h4>
               <p className='text-sm leading-7 my-3 text-black font-light text-center lg:mx-44'>"As a busy mom, taking care of my family's health 
