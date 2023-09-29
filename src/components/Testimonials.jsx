@@ -75,7 +75,7 @@ const Testimonials = () => {
               </div>
               <h4 className='uppercase text-xl font-thin text-center text-primary'> Alice and Thomas Chukwuma</h4>
               <p className='text-sm leading-7 my-3 text-black font-light text-center lg:mx-44'>"As retirees, staying healthy is our top priority.
-               eMedic has been a trustworthy source of health information tailored for seniors like us. We appreciate the detailed articles
+               eMedic has been a trustworthy source of health information tailored for seniors like us. We appreciate the detailed
                 and easy navigation. The virtual check-ins with healthcare providers have been a blessing. eMedic truly understands the needs 
                 of older adults."</p>
             </div>
@@ -88,7 +88,7 @@ const Testimonials = () => {
             </div>
             <h4 className='uppercase text-xl font-thin text-center text-primary'>David Johnson</h4>
             <p className='text-sm leading-7 my-3 text-black font-light text-center lg:mx-44'>"I had some health concerns and didn't know where to turn. eMedic was a lifesaver! 
-            Their website is user-friendly, and I found valuable articles and guidance about my condition. The option to chat with medical 
+            Their website is user-friendly, and I found guidance from specialists about my condition. The option to chat with medical 
             professionals online gave me peace of mind. Thank you, eMedic!"</p>
           </div>
         </SwiperSlide>
