@@ -20,14 +20,17 @@ const Navbar=()=> {
     ]
   return (
     <>
-    <nav className='bg-stone-50 md:px-14 p-4 max-w-screen-2xl mx-auto border-b text-primary fixed top-0 right-0 left-0 '>
+    <nav
+        className='bg-stone-50 md:px-14 p-4 max-w-screen-2xl mx-auto border-b text-primary fixed top-0 right-0 left-0 '
+    >
         <div className='text-lg container mx-auto flex justify-between item-center font-medium'>
             <div className='flex space-x-14 items-center'>
                 <a href='/'className='text-2xl font-semibold flex items-center space-x-3 
                 text-primary'><span>E - Medic</span></a>
 
                 {/* using map to show navitem */}
-                <ul className='md:flex space-x-12 hidden'>
+                {/* Fix button arrangements and alignments */}
+                <ul className='md:flex items-center gap-4 text-sm lg:text-base hidden'>
                     {
                         navItems.map(({link,path}) => <Link activeClass='active' spy={true} smooth={true} offset={-100} key={link} to={path} 
                         className='block hover:text-gray-300 cursor-pointer'>{link}</Link>)
