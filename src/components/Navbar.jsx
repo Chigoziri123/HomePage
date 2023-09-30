@@ -30,7 +30,7 @@ const Navbar=()=> {
 
                 {/* using map to show navitem */}
                 {/* Fix button arrangements and alignments */}
-                <ul className='md:flex items-center gap-4 text-sm lg:text-base hidden'>
+                <ul className='md:flex items-center gap-4 lg:gap-5 text-sm lg:text-base hidden'>
                     {
                         navItems.map(({link,path}) => <Link activeClass='active' spy={true} smooth={true} offset={-100} key={link} to={path} 
                         className='block hover:text-gray-300 cursor-pointer'>{link}</Link>)
