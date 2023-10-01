@@ -5,7 +5,8 @@ import Joinus from './components/Joinus';
 import Partnership from './components/Partnership';
 import Timeline from './components/Timeline';
 import Pricing from './components/Pricing';
-import Testimonials from './components/Testimonials';
+// import Testimonials from './components/Testimonials';
+import TestimonialSection from './components/TestimonialSection';
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
     <Timeline />
     <Partnership />
     <Pricing />
-    <Testimonials />
+    {/* <Testimonials /> */}
+    <TestimonialSection />
     </>
   );
 }

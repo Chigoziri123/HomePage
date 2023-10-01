@@ -16,3 +16,23 @@ nav {
 .btnPrimary {
   @apply py-3 px-4 md:py-3  bg-secondary font-semibold text-white rounded hover:bg-primary transition-all duration-300
 }
+
+.swiper {
+  width: 100%;
+  @apply h-[35vh] lg:h-[25vh]
+}
+
+.swiper-pagination-bullet {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active-main {
+  background: #805AD5 !important;
+}

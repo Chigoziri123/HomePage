@@ -45,7 +45,7 @@ const Testimonials = () => {
 
       <div className='grid sm:grid-cols-2 lg:grid-cols-3 md:w-11/12 m-auto'>
         <SwiperSlide>
-          <div className='bg-teal-300 p-8 rounded-xl'>
+          <div className='bg-red-300 p-8 rounded-xl'>
             <div className='flex items-center justify-center'>
             <img src={image_2} className='h-96 w-56 rounded-lg'alt='a man in a black top'/>
             </div>
