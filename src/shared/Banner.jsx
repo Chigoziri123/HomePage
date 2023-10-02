@@ -33,7 +33,7 @@ const Banner = () => {
           <p className='text-[#EBEBEB] text-2xl mb-8'>Talk with a doctor using our highly secured end-to-end encrypted video call</p>
           <div className='space-x-2 md:flex md:space-x-5 lg:space-x-5 lg:space-y-4'>
             <button className='btnPrimary'>Call a doctor</button>
-            <button className='btnPrimary'>Chat with a doctor</button>
+            <button className='btnPrimary lg:m-8'>Chat with a doctor</button>
           </div>
         </motion.div>
       </div>

@@ -25,7 +25,7 @@ const Joinus = () => {
             </motion.div>
 
             {/* Join Us Today cards */}
-            <motion.div 
+            <div 
                  variants={fadeIn('up', 0.3)}
                  initial='hidden'
                  whileInView={'show'}
@@ -54,7 +54,7 @@ const Joinus = () => {
                         </div> 
                     </div>
                </div>  
-            </motion.div>
+            </div>
         </div>
     </div>
   )

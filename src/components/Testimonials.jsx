@@ -18,7 +18,7 @@ const Testimonials = () => {
     <div className=''> 
       <div className='text-center py-10'>
         <h2 className='text-primary'>Testimonials</h2>
-        <h5 className='text-4xl mx-20 leading-normal font-bold mb-12'>Read what our satisfied clients have to say about their experiences.
+        <h5 className='text-4xl mx-20 leading-normal font-bold mb-12'>Here's what our satisfied clients have to say about their experiences.
         </h5>
       </div>
       <Swiper
@@ -33,21 +33,17 @@ const Testimonials = () => {
         depth: 100,
         modifier: 2.5,
       }}
-        pagination={{el:'.swiper-pagination',clickable:true}}
-        navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-          clickable: true,
-        }}
+        pagination={{clickable:true}}
+        navigation={{clickable: true}}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className='swiper-container'
       >
 
       <div className='grid sm:grid-cols-2 lg:grid-cols-3 md:w-11/12 m-auto'>
         <SwiperSlide>
-          <div className='bg-teal-300 p-8 rounded-xl'>
+          <div className='bg-teal-900 p-8 lg:mx-24 rounded-xl'>
             <div className='flex items-center justify-center'>
-            <img src={image_2} className='h-96 w-56 rounded-lg'alt='a man in a black top'/>
+            <img src={image_2} className='h-96 w-68 rounded-lg'alt='a man in a black top'/>
             </div>
             <h4 className='uppercase text-xl font-thin text-center text-primary'>Lazarus Nathan</h4>
             <p className='text-sm leading-7 my-3 text-black font-light text-center lg:mx-44'>"I can't thank eMedic enough for their prompt and reliable services. 
@@ -57,9 +53,9 @@ const Testimonials = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className='bg-teal-300 p-8 rounded-xl'>
+          <div className='bg-teal-900 p-8 lg:mx-24 rounded-xl'>
            <div className='flex items-center justify-center'>
-            <img src={image_3} className='h-96 w-56 rounded-lg' alt='company staff'/> 
+            <img src={image_3} className='h-96 w-68 rounded-lg' alt='company staff'/> 
            </div>
             <h4 className='uppercase text-xl font-thin text-center text-primary'>Albatross Logistics PLC</h4>
             <p className='text-sm leading-7 my-3 text-black font-light text-center lg:mx-44'>"At Albatross Company, we care about our employees' well-being. 
@@ -69,9 +65,9 @@ const Testimonials = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-            <div className='bg-teal-300 p-8 rounded-xl'>
+            <div className='bg-teal-900 p-8 lg:mx-24 rounded-xl'>
               <div className='flex items-center justify-center'>
-                <img src={image_5} className='h-96 w-56 rounded-lg' alt='an elderly couple'/>
+                <img src={image_5} className='h-96 w-68 rounded-lg' alt='an elderly couple'/>
               </div>
               <h4 className='uppercase text-xl font-thin text-center text-primary'> Alice and Thomas Chukwuma</h4>
               <p className='text-sm leading-7 my-3 text-black font-light text-center lg:mx-44'>"As retirees, staying healthy is our top priority.
@@ -82,7 +78,7 @@ const Testimonials = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className='bg-teal-300 p-8 rounded-xl'>
+          <div className='bg-teal-900 p-8 lg:mx-24 rounded-xl'>
             <div className='flex items-center justify-center'>
               <img src={image_4} className='h-96 w-56 rounded-lg' alt='a young man'/>
             </div>
@@ -94,9 +90,9 @@ const Testimonials = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-            <div className='bg-teal-300 p-8 rounded-xl'>
+            <div className='bg-teal-900 p-8 lg:mx-24 rounded-xl'>
               <div className='flex items-center justify-center'>
-                <img src={image_1} className='h-96 w-56 rounded-lg' alt='a happy woman'/>  
+                <img src={image_1} className='h-96 w-68 rounded-lg' alt='a happy woman'/>  
               </div>
               <h4 className='uppercase text-xl font-thin text-center text-primary'>Aisha Habib</h4>
               <p className='text-sm leading-7 my-3 text-black font-light text-center lg:mx-44'>"As a busy mom, taking care of my family's health 
