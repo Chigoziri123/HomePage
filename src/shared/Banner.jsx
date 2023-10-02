@@ -41,7 +41,7 @@ const Banner = () => {
             className='flex flex-col items-start xs:flex-row xs:items-center xs:w-full gap-4 w-48   md:space-x-5 text-sm'
           >
             <button className='btnPrimary'>Call a doctor</button>
-            <button className='btnPrimary'>Chat with a doctor</button>
+            <button className='btnPrimary lg:m-8'>Chat with a doctor</button>
           </div>
         </motion.div>
       </div>

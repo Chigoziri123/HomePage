@@ -20,7 +20,7 @@ const TestimonialSection = () => {
         <div
             className='max-w-6xl mx-auto w-[90%] py-14'
         >
-            <h2 className='text-center font-semibold text-xl md:text-4xl mb-5 md:mb-10'>What ours users say</h2>
+            <h2 className='text-center font-semibold text-xl md:text-4xl mb-5 md:mb-10'>What our users say</h2>
             <Swiper
                 rewind= {true}
                 spaceBetween={30}
