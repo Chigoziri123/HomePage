@@ -1,0 +1,20 @@
+{
+    "navbar": {
+      "home": "Home",
+      "products": "Products",
+      "business": "Business (For Partners)",
+      "pricing": "Pricing",
+      "language": "Language",
+      "signUp": "Sign up"
+    },
+
+    "banner": {
+        "title": "Soins de santé de n'importe où",
+        "description": "Notre application télé-médicale alimentée par l'IA vous permet de parler à un médecin de n'importe où en utilisant notre appel vidéo hautement sécurisé de bout en bout",
+        "callDoctor": "Appeler un médecin",
+        "chatDoctor": "Discuter avec un médecin"
+      }
+
+
+  }
+  

@@ -17,7 +17,7 @@ nav {
   @apply py-3 px-4 md:py-3  bg-secondary font-semibold text-white rounded hover:bg-primary transition-all duration-300
 }
 
-.swiper {
+/* .swiper {
   width: 100%;
   @apply h-[35vh] lg:h-[25vh]
 }
@@ -35,4 +35,21 @@ nav {
 
 .swiper-pagination-bullet-active-main {
   background: #805AD5 !important;
+} */
+
+.leaflet-container {
+  height: 100vh;
+} 
+
+.cluster-icon {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: white;
+  transform: translate(-25%, -25%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.5rem;
 }

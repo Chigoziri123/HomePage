@@ -20,7 +20,7 @@ const TestimonialSection = () => {
         <div
             className='max-w-6xl mx-auto w-[90%] py-14'
         >
-            <h2 className='text-center font-semibold text-xl md:text-4xl mb-5 md:mb-10'>What our users say</h2>
+            <h2 className='text-center font-semibold text-xl md:text-4xl mb-5 md:mb-10'>Read satisfied clients' experiences.</h2>
             <Swiper
                 rewind= {true}
                 spaceBetween={30}
@@ -56,7 +56,7 @@ const TestimonialSection = () => {
             >
                 {
                     testimonialDetails.map(({role, text, img}, index) => (
-                        <SwiperSlide key={index}>
+                        <SwiperSlide key={index} className='grid sm:grid-cols-2 lg:grid-cols-3 md:w-11/12 m-auto'>
                             <TestimonialBox img={img} name={role} text={text} />
                         </SwiperSlide>
                     ))

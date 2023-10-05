@@ -1,0 +1,25 @@
+{
+    "navbar": {
+      "home": "Accueil",
+      "products": "Produits",
+      "business": "Affaires (pour les partenaires)",
+      "pricing": "Tarification",
+      "language": "Langue",
+      "signUp": "S'inscrire"
+    },
+
+    
+    "banner": {
+        "title": "Healthcare From Anywhere",
+        "description": "Our AI powered telemedical application lets you talk to a doctor from anywhere using our highly secure end-to-end encrypted video call",
+        "callDoctor": "Call a doctor",
+        "chatDoctor": "Chat with a doctor"
+    },
+    
+    "otherComponent2": {
+      "textA": "Texte A en français",
+      "textB": "Texte B en français"
+    }
+    
+  }
+  
