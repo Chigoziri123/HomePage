@@ -4,12 +4,12 @@ import SpecializationItem from './SpecializationItem';
 
 const SpecializationCategory=()=> {
     const SpecializationListData = [
-        {
-            id:1,
-            name: 'General Doctor',
-            value:'general_practice',
-            icon: require('../assets/generaldoctor.jpg')
-        },
+        // {
+        //     id:1,
+        //     name: 'General Doctor',
+        //     value:'general_practice',
+        //     icon: require('../assets/generaldoctor.jpg')
+        // },
 
         {
             id:2,
@@ -32,12 +32,12 @@ const SpecializationCategory=()=> {
             icon: require('../assets/pediatrician.png')
         },
 
-        {
-            id:5,
-            name: 'Gynaecologist',
-            value:'gynaecology',
-            icon: require('../assets/gynaecologist.jpg')
-        },
+        // {
+        //     id:5,
+        //     name: 'Gynaecologist',
+        //     value:'gynaecology',
+        //     icon: require('../assets/gynaecologist.jpg')
+        // },
     ];
  
     const [specialization, setSpecialization] = useState([]);
