@@ -3,6 +3,8 @@ import purple1 from '../assets/purple-number-1.jpg'
 import purple2 from '../assets/purple-number-2.jpg'
 import purple3 from '../assets/number-3-purple.jpg'
 
+import { useTranslation } from 'react-i18next'
+
 // For motion
 import {motion} from 'framer-motion'
 

@@ -8,18 +8,149 @@
       "signUp": "S'inscrire"
     },
 
-    
     "banner": {
-        "title": "Healthcare From Anywhere",
-        "description": "Our AI powered telemedical application lets you talk to a doctor from anywhere using our highly secure end-to-end encrypted video call",
-        "callDoctor": "Call a doctor",
-        "chatDoctor": "Chat with a doctor"
+        "title": "Soins de santé de n'importe où",
+        "description": "Notre application télé-médicale alimentée par l'IA vous permet de parler à un médecin de n'importe où en utilisant notre appel vidéo hautement sécurisé de bout en bout",
+        "callDoctor": "Appeler un médecin",
+        "chatDoctor": "Discuter avec un médecin"
+    },
+
+    "joinus": {
+        "title": "Rejoignez-nous aujourd'hui",
+        "description": "Voici trois étapes simples et rapides pour devenir membre de la famille E-Medic."
+        },
+    "steps": {
+      "step1": "Inscrivez-vous sur le site web en fournissant les informations nécessaires.",
+      "step2": "Cliquez sur le lien envoyé à votre adresse e-mail pour vérifier votre compte.",
+      "step3": "Connectez-vous à votre compte pour profiter de nos services exceptionnels !"
+    },
+
+    "partnerList": {
+      "heading": "Nos Partenaires :"
+    },
+      
+    "basicMap": {
+      "title": "Trouvez des médecins près de chez vous"
     },
     
-    "otherComponent2": {
-      "textA": "Texte A en français",
-      "textB": "Texte B en français"
+    "timeline": {
+      "title": "Comment ça marche ?",
+      "steps": [
+        {
+          "title": "S'inscrire",
+          "content": "Rejoignez l'avenir des soins de santé en vous inscrivant en ligne"
+        },
+        {
+          "title": "Consulter un médecin",
+          "content": "Connectez-vous virtuellement avec un médecin qualifié, partagez vos préoccupations de santé et vos symptômes pour obtenir des conseils d'experts."
+        },
+        {
+          "title": "Obtenir un rapport médical du médecin",
+          "content": "Recevez votre rapport médical personnalisé électroniquement dans votre boîte de réception."
+        },
+        {
+          "title": "Commander vos médicaments",
+          "content": "En un clic, commandez vos médicaments prescrits et faites-les livrer directement à votre porte."
+        }
+      ]
+    },
+
+    "partnership": {
+      "title": "Nous apprécions votre partenariat.",
+      "content": "Les médecins, les pharmacies et les investisseurs d'entreprises et privés sont les bienvenus pour collaborer avec notre équipe de professionnels de classe mondiale.",
+      "buttonText": "Commencer"
+    },
+
+    "pricing": {
+      "title": "Choisissez un plan qui vous convient.",
+      "description": "Sélectionnez un plan tarifaire qui correspond parfaitement à vos besoins et à votre budget, en vous assurant d'obtenir la meilleure valeur pour votre parcours de soins de santé.",
+      "monthly": "Mensuel",
+      "yearly": "Annuel",
+      "packages": [
+        {
+          "name": "Plan de démarrage",
+          "description": "Accès à tous les médecins généralistes chaque mois.",
+          "price": "Prix : ",
+          "tick1": "Consultations illimitées",
+          "tick2": "Appels audio, chat et vidéo",
+          "tick3": "Accès aux laboratoires",
+          "tick4": "Obtenez des ordonnances",
+          "buttonText": "Commencer"
+        },
+        {
+          "name": "Plan avancé",
+          "description": "Accès aux cardiologues et à d'autres médecins spécialistes chaque mois.",
+          "price": "Prix : ",
+          "tick1": "Consultations illimitées",
+          "tick2": "Appels audio, chat et vidéo",
+          "tick3": "Accès aux laboratoires",
+          "tick4": "Obtenez des ordonnances",
+          "buttonText": "Commencer"
+        },
+        {
+          "name": "Plan premium",
+          "description": "Accès complet pour tous les membres de votre HMO.",
+          "price": "Négociable",
+          "tick1": "Consultations illimitées",
+          "tick2": "Appels audio, chat et vidéo",
+          "tick3": "Accès aux laboratoires",
+          "tick4": "Obtenez des ordonnances",
+          "buttonText": "Commencer"
+        }
+      ]
+    },
+
+    "testimonialSection": {
+      "title": "Lisez les expériences satisfaites de nos clients."
+    },
+
+    "testimonialDetails": [
+      {
+        "role": "Lazarus Nathan",
+        "text": "Je ne peux pas remercier assez eMedic pour ses services rapides et fiables. C'est un véritable atout pour les personnes occupées comme moi !"
+      },
+      {
+        "role": "Albatross Logistics PLC",
+        "text": "Nous avons conclu un partenariat avec eMedic pour offrir à notre équipe un accès à des ressources médicales précieuses. Merci à eMedic de nous avoir aidés à prioriser la santé au travail."
+      },
+      {
+        "role": "Alice et Thomas Chukwuma",
+        "text": "En tant que retraités, rester en bonne santé est notre priorité absolue. eMedic comprend vraiment les besoins des personnes âgées."
+      },
+      {
+        "role": "David Johnson",
+        "text": "Leur site Web est convivial, et l'option de discuter en ligne avec des professionnels de la santé m'a donné la tranquillité d'esprit. Merci, eMedic !"
+      },
+      {
+        "role": "Aisha Habib",
+        "text": "En tant que maman occupée, eMedic a rendu beaucoup plus facile la gestion de nos besoins en matière de santé."
+      }
+    ],
+
+    "footer": {
+      "company": "Société",
+      "aboutUs": "À propos de nous",
+      "forBusiness": "Pour les entreprises",
+      "careers": "Carrières",
+      "support": "Assistance",
+      "products": "Produits",
+      "consultations": "Consultations",
+      "diagnostics": "Diagnostics",
+      "prescription": "Ordonnance",
+      "resources": "Ressources",
+      "faqs": "FAQ",
+      "blog": "Blog",
+      "press": "Presse",
+      "status": "Statut",
+      "legal": "Légal",
+      "termsOfUse": "Conditions d'utilisation",
+      "privacyPolicy": "Politique de confidentialité",
+      "cookiePolicy": "Politique de cookies",
+      "contactUs": "Contactez-nous",
+      "address": "3/6, rue Alh. Adejumo, Ilupeju, Lagos, Nigeria",
+      "tel": "Tél : +2349012658112",
+      "email": "E-mail : contact@emedic.com",
+      "rightsReserved": "@2023. Tous droits réservés"
     }
-    
   }
   

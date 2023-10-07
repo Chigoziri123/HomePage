@@ -1,6 +1,8 @@
 import React from 'react'
 
+
 const TestimonialBox = ({text, name, img}) => {
+    
 
     const user = img ? (
         <div className='w-8 h-8 rounded-full overflow-hidden flex items-center justify-center'>

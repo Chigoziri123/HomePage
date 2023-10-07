@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals'
 import i18n from "i18next";
-import { useTranslation, initReactI18next } from "react-i18next";
+import { initReactI18next } from "react-i18next";
 import LanguageDetector from 'i18next-browser-languagedetector'
 import HttpApi from 'i18next-http-backend'
 
 import './index.css';
-// import App from './App';
+import App from './App';
 
 i18n
   .use(initReactI18next) // passes i18n down to react-i18next
@@ -15,7 +15,7 @@ i18n
   .use(HttpApi)
 
   .init({ 
-    
+    supportedLng: ['en', 'fr'],
     fallbackLng: 'en',
     detection: {
       order: ['cookie', 'htmlTag', 'localStorage', 'path', 'subdomain'],
@@ -27,12 +27,6 @@ i18n
     react: { useSuspense: false },
 
   });
-
-function App() {
-  const { t } = useTranslation();
-
-  return <h2>{t('welcome_to_react')}</h2>;
-}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

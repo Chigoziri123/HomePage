@@ -1,88 +1,31 @@
-import React, { useState, useRef} from 'react'
-import SideMenu from '../shared/SideNavBar'
-import SearchBar from '../shared/SearchBar.jsx'
-import SpecializationCategory from '../shared/SpecializationCategory'
-import TopDoctors from '../shared/TopDoctors'
-
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import 'leaflet/dist/leaflet.css'
-import { Icon, divIcon, point} from 'leaflet'
-import MarkerClusterGroup from 'react-leaflet-cluster'
+import React from 'react';
+import mapImage from '../assets/maponphone.jpg';
+import mapMarker from '../assets/mapmarker.png';
 
 
 
 const BasicMap = () => {
 
-  const [center, setCenter] = useState({ lat:6.465422, lng: 3.406448 });
-  const ZOOM_LEVEL = 13;
-  const mapRef = useRef();
-
-  const markers = [
-    {
-      geocode: [6.5389, 3.5541],
-      popUp:require('../assets/doctor2.jpg'),
-    },
-
-    {
-      geocode: [6.6781, 3.5155],
-      popUp:require('../assets/doctor3.jpg'),
-    },
-
-    {
-      geocode: [6.6138, 3.3580],
-      popUp:require('../assets/doctor4.jpg'),
-    },
-
-  ]
-
-  const customIcon = new Icon ({
-    iconUrl: require('../assets/mapmarker.png'),
-    iconSize: [38, 38]
-  })
-
-  const createCustomClusterIcon = (cluster) => {
-    return new divIcon ({
-      html: `<div className='cluster-icon'>${cluster.getChildCount()}</div>`,
-      className: 'custom-marker-cluster',
-      iconSize: point(33, 33, true)
-    });
-  };
-
   return (
-    <div className='flex'>
-      {/* <SideMenu /> */}
-      <div className='grid grid-cols-1 md:grid-cols-2 px-6 md:px-10 w-full mt-10 gap-8'>
-        {/* Business List */}
-        <div>
-          <SearchBar />
-          <SpecializationCategory/>
-          <TopDoctors />
-        </div>
-        {/* Google Map */}
-        <div className='container h-500 w-full'>
-          <MapContainer center={center} zoom={ZOOM_LEVEL} ref={mapRef} 
-          >
-            <TileLayer url='https://tile.openstreetmap.org/{z}/{x}/{y}.png' 
-            attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>' />
+    <div className='md:px-14 rounded:lg p-4 max-w-s mx-auto py-10 my-16 bg-gray-400 w-[90%]'>
+      <h2 className='text-center md:text-3xl text-3xl py-2 font-bold text-white mb-5 leading-normal'>Find a doctor near you.</h2>
+      <div className='flex md:flex-row md:items-center md:justify-center'>
 
-            {/* Wrapping map markers in a cluster of numbers */}
-            <MarkerClusterGroup 
-            chunkedLoading
-            iconCreateFunction={createCustomClusterIcon}>
-              {markers.map(marker => (
-                <Marker position={marker.geocode} icon={customIcon}>
-                  <Popup>
-                    {marker.popUp}
-                  </Popup>
-                </Marker>
-              ))}
-            </MarkerClusterGroup>
+        <div className='mb-4 md:mb-0 md:mr-4'>
+            <img src={mapImage} className='h-96 w-full md:w-96 rounded-full' alt='a map screenshot' />
+          </div>
 
-          </MapContainer>
+          <div className='md:block ml-[-150px] mb-56'>
+            <img src={mapMarker} className='h-40 w-40 rounded-full' alt='a map marker' />
+          </div>
+       
+
+       
+       
       </div>
-      </div>
+
     </div>
-  )
-}
+  );
+};
 
-export default BasicMap
+export default BasicMap;

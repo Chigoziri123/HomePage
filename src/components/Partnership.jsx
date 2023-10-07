@@ -1,5 +1,6 @@
 import React from 'react'
 import partnership from '../assets/partnership.jpg'
+import { useTranslation } from 'react-i18next'
 
 // For motion
 import {motion} from 'framer-motion'

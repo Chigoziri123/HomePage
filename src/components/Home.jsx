@@ -1,5 +1,6 @@
 
 import Banner from '../shared/Banner'
+import { useTranslation } from 'react-i18next'
 
 const Home = () => {
   return (

@@ -9,12 +9,150 @@
     },
 
     "banner": {
-        "title": "Soins de santé de n'importe où",
-        "description": "Notre application télé-médicale alimentée par l'IA vous permet de parler à un médecin de n'importe où en utilisant notre appel vidéo hautement sécurisé de bout en bout",
-        "callDoctor": "Appeler un médecin",
-        "chatDoctor": "Discuter avec un médecin"
+        "title": "Healthcare From Anywhere",
+        "description": "Our AI powered telemedical application lets you talk to a doctor from anywhere using our highly secure end-to-end encrypted video call",
+        "callDoctor": "Call a doctor",
+        "chatDoctor": "Chat with a doctor"
+    },
+
+    "joinus": {
+      "title": "Join Us Today",
+      "description": "Here are three simple and quick steps to becoming a member of the E-Medic family."
+    },
+
+    "steps": {
+      "step1": "Register on the website by providing necessary information.",
+      "step2": "Click on the link sent to your email to verify your account.",
+      "step3": "Log in to your account to enjoy our amazing services!"
+    },
+  
+    "partnerList": {
+      "heading": "Our Partners:"
+    },
+
+    "basicMap": {
+      "title": "Find Doctors Near You"
+    },
+
+    "timeline": {
+      "title": "How Does It Work?",
+      "steps": [
+        {
+          "title": "Sign Up",
+          "content": "Join the future of healthcare by signing up online"
+        },
+        {
+          "title": "Consult a Doctor",
+          "content": "Connect with a qualified doctor virtually, sharing your health concerns and symptoms for expert guidance."
+        },
+        {
+          "title": "Get a Doctor's Medical Report",
+          "content": "Receive your tailored medical report electronically into your inbox."
+        },
+        {
+          "title": "Order Your Medication",
+          "content": "With a click, order your prescribed medication and have it delivered right to your doorstep."
+        }
+      ]
+    },
+
+    "partnership": {
+      "title": "We Value Your Partnership.",
+      "content": "Doctors, pharmacies, and corporate and private investors are welcome to partner with our team of world-class professionals.",
+      "buttonText": "Get Started"
+    },
+
+    "pricing": {
+      "title": "Choose a plan that works well for you.",
+      "description": "Select a pricing plan that aligns perfectly with your needs and budget, ensuring you get the best value for your healthcare journey.",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "packages": [
+        {
+          "name": "Starter Plan",
+          "description": "Access to all general practitioners monthly.",
+          "price": "Price: ",
+          "tick1": "Unlimited Consultations",
+          "tick2": "Audio, Chat and video calls",
+          "tick3": "Access to Laboratories",
+          "tick4": "Get Prescriptions",
+          "buttonText": "Get Started"
+        },
+        {
+          "name": "Advanced Plan",
+          "description": "Access to cardiologists and other specialist doctors monthly.",
+          "price": "Price: ",
+          "tick1": "Unlimited Consultations",
+          "tick2": "Audio, Chat and video calls",
+          "tick3": "Access to Laboratories",
+          "tick4": "Get Prescriptions",
+          "buttonText": "Get Started"
+        },
+        {
+          "name": "Premium Plan",
+          "description": "Full access for all members of your HMO.",
+          "price": "Negotiable",
+          "tick1": "Unlimited Consultations",
+          "tick2": "Audio, Chat and video calls",
+          "tick3": "Access to Laboratories",
+          "tick4": "Get Prescriptions",
+          "buttonText": "Get Started"
+        }
+      ]
+    },
+
+    "testimonialSection": {
+      "title": "Read satisfied clients' experiences."
+    },
+
+    "testimonialDetails": [
+      {
+        "role": "Lazarus Nathan",
+        "text": "I cannot thank eMedic enough for their prompt and reliable services. It is a game-changer for busy individuals like me!"
+      },
+      {
+        "role": "Albatross Logistics PLC",
+        "text": "We partnered with eMedic to provide our team with access to valuable health resources. Thank you, eMedic, for helping us prioritize health at work."
+      },
+      {
+        "role": "Alice and Thomas Chukwuma",
+        "text": "As retirees, staying healthy is our top priority. eMedic truly understands the needs of older adults."
+      },
+      {
+        "role": "David Johnson",
+        "text": "Their website is user-friendly, and the option to chat with medical professionals online gave me peace of mind. Thank you, eMedic!"
+      },
+      {
+        "role": "Aisha Habib",
+        "text": "As a busy mom, eMedic has made it so much easier to manage our healthcare needs."
       }
+    ],
 
+    "footer": {
+      "company": "Company",
+      "aboutUs": "About Us",
+      "forBusiness": "For Business",
+      "careers": "Careers",
+      "support": "Support",
+      "products": "Products",
+      "consultations": "Consultations",
+      "diagnostics": "Diagnostics",
+      "prescription": "Prescription",
+      "resources": "Resources",
+      "faqs": "FAQs",
+      "blog": "Blog",
+      "press": "Press",
+      "status": "Status",
+      "legal": "Legal",
+      "termsOfUse": "Terms of Use",
+      "privacyPolicy": "Privacy Policy",
+      "cookiePolicy": "Cookie Policy",
+      "contactUs": "Contact Us",
+      "address": "3/6 Alh. Adejumo St. Ilupeju, Lagos, Nigeria",
+      "tel": "Tel: +2349012658112",
+      "email": "Email: contact@emedic.com",
+      "rightsReserved": "@2023. All rights reserved"
+    }
 
-  }
+}
   

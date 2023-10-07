@@ -1,4 +1,5 @@
 import banner from '../assets/black-doctor-call.jpg'
+import { useTranslation } from 'react-i18next'
 
 // For motion
 import {motion} from 'framer-motion'
@@ -7,6 +8,7 @@ import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 
 const Banner = () => {
+  const { t } = useTranslation()
   return (
     <div className='gradientBg rounded-xl rounded-br-[80px] md:p-9 px-4 py-9'>
       <div className='flex flex-col md:flex-row-reverse justify-between items-center gap-10'>
@@ -50,3 +52,4 @@ const Banner = () => {
 }
 
 export default Banner
+
