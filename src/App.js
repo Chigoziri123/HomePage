@@ -8,7 +8,7 @@ import Timeline from './components/Timeline';
 import Pricing from './components/Pricing';
 
 import TestimonialSection from './components/TestimonialSection';
-import BasicMap from './components/BasicMap';
+// import BasicMap from './components/BasicMap';
 import Footer from './shared/Footer';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
     <Home />
     <Joinus />
     <PartnerList />
-    <BasicMap />
+    // <BasicMap />
     <Timeline />
     <Partnership />
     <Pricing />
