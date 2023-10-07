@@ -7,7 +7,9 @@ import { Pagination, EffectCoverflow, Autoplay } from 'swiper/modules';
 import TestimonialBox from './TestimonialBox';
 import testimonialDetails from '../utils/testimonialDetails';
 
+
 const TestimonialSection = () => {
+
     const pagination = {
         clickable: true,
         dynamicBullets: true,
@@ -20,7 +22,7 @@ const TestimonialSection = () => {
         <div
             className='max-w-6xl mx-auto w-[90%] py-14'
         >
-            <h2 className='text-center font-semibold text-xl md:text-4xl mb-5 md:mb-10'>Read satisfied clients' experiences.</h2>
+            <h2 className='text-center font-semibold text-xl md:text-4xl mb-5 md:mb-10'>Clients' Experiences</h2>
             <Swiper
                 rewind= {true}
                 spaceBetween={30}

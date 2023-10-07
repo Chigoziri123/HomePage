@@ -6,7 +6,7 @@ import gsk from '../assets/GSK-logo-vector.png'
 import ifitness from '../assets/ifitness-logo.png'
 import healthyfood from '../assets/HealthyFoods.jpg'
 import wemabank from '../assets/wemabank.jpg'
-
+import { useTranslation } from 'react-i18next'
 
 const PartnerList = () => {
 

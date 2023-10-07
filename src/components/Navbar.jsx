@@ -2,7 +2,7 @@ import { React, useState} from 'react'
 import {GrLanguage} from "react-icons/gr" 
 import {FaXmark, FaBars} from "react-icons/fa6"
 import { Link } from 'react-scroll'
-
+import { useTranslation } from 'react-i18next'
 
 const Navbar=()=> {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

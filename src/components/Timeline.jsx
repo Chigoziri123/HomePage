@@ -1,8 +1,10 @@
 import React from 'react'
 import {BsFillGiftFill} from 'react-icons/bs'
 import patientDoctorChat from '../assets/patient-doctor-consult.jpg'
+import { useTranslation } from 'react-i18next';
 
 const Timeline = () =>{
+
   return (
     <div className='md:px-14 p-4 max-w-s mx-auto'>
         <div className='flex flex-col md:flex-row-reverse justify-between items-center gap-8 bg-gray-200 min-h-screen flex justify-center p-20'>
@@ -68,3 +70,4 @@ const Timeline = () =>{
 }
 
 export default Timeline
+
