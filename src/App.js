@@ -19,7 +19,7 @@ function App() {
     <Home />
     <Joinus />
     <PartnerList />
-    // <BasicMap />
+    {/* // <BasicMap /> */}
     <Timeline />
     <Partnership />
     <Pricing />
