@@ -40,3 +40,33 @@ const testimonialDetails = [
 
 export default testimonialDetails
 
+// const testimonialDetails = [
+//     {
+//       role: "Lazarus Nathan",
+//       text: "testimonial1",
+//       img: image_2,
+//     },
+//     {
+//       role: "Albatross Logistics PLC",
+//       text: "testimonial2",
+//       img: image_3,
+//     },
+//     {
+//       role: "Alice & Thomas Chukwuma",
+//       text: "testimonial3",
+//       img: image_5,
+//     },
+//     {
+//       role: "David Johnson",
+//       text: "testimonial4",
+//       img: image_4,
+//     },
+//     {
+//       role: "Aisha Habib",
+//       text: "testimonial5",
+//       img: image_1,
+//     },
+//   ];
+  
+//   export default testimonialDetails;
+  

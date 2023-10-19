@@ -1,4 +1,7 @@
 {
+
+  "language": "Langue",
+
     "navbar": {
       "home": "Accueil",
       "products": "Produits",
@@ -56,7 +59,8 @@
     },
 
     "partnership": {
-      "title": "Nous apprécions votre partenariat.",
+      "title": "Nous Apprécions Votre",
+      "span": "Partenariat.",
       "content": "Les médecins, les pharmacies et les investisseurs d'entreprises et privés sont les bienvenus pour collaborer avec notre équipe de professionnels de classe mondiale.",
       "buttonText": "Commencer"
     },
@@ -70,7 +74,8 @@
         {
           "name": "Plan de démarrage",
           "description": "Accès à tous les médecins généralistes chaque mois.",
-          "price": "Prix : ",
+          "monthlyPrice": "N1000",
+          "yearlyPrice": "N10,000",
           "tick1": "Consultations illimitées",
           "tick2": "Appels audio, chat et vidéo",
           "tick3": "Accès aux laboratoires",
@@ -80,7 +85,8 @@
         {
           "name": "Plan avancé",
           "description": "Accès aux cardiologues et à d'autres médecins spécialistes chaque mois.",
-          "price": "Prix : ",
+          "monthlyPrice": "N3000",
+          "yearlyPrice": "N30,000",
           "tick1": "Consultations illimitées",
           "tick2": "Appels audio, chat et vidéo",
           "tick3": "Accès aux laboratoires",
@@ -90,7 +96,8 @@
         {
           "name": "Plan premium",
           "description": "Accès complet pour tous les membres de votre HMO.",
-          "price": "Négociable",
+          "monthlyPrice": "Négociable",
+          "yearlyPrice": "Négociable",
           "tick1": "Consultations illimitées",
           "tick2": "Appels audio, chat et vidéo",
           "tick3": "Accès aux laboratoires",
@@ -128,7 +135,7 @@
     ],
 
     "footer": {
-      "company": "Société",
+      "company": "E - Medic",
       "aboutUs": "À propos de nous",
       "forBusiness": "Pour les entreprises",
       "careers": "Carrières",
